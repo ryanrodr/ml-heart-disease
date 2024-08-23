@@ -30,7 +30,7 @@ norm = StandardScaler()
 df[colunas_norm] = norm.fit_transform(df[colunas_norm])
 
 # Caminho completo para o arquivo CSV
-caminho = '/home/ryanr/Documentos/ml-heart-disease/dados/heart_disease_preprocessed.csv'
+caminho = '/home/ryanrodr/GitHub/ml-heart-disease/dados/heart_disease_preprocessed.csv'
 
 # Salvar o DataFrame como um arquivo CSV
 df.to_csv(caminho, index=False)
